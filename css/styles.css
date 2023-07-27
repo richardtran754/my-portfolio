@@ -1,0 +1,16 @@
+body {
+  font-family: 'Noto Sans Vithkuqi', sans-serif;
+}
+
+nav#menu {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  max-width: 800px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  flex-flow: row wrap;
+  font-size: 20px;
+}
