@@ -1,21 +1,35 @@
 body {
   font-family: 'Noto Sans Vithkuqi', sans-serif;
   background-color: #f3f2f0;
+  font-size: 16px;
+}
+
+nav#menu, #info-summary, #portfolio-summary {
+  display: flex;
+}
+
+nav#menu, #info-summary {
+  width: 80%;
+  max-width: 500px;
 }
 
 nav#menu {
-  display: flex;
   justify-content: space-evenly;
-  width: 80%;
-  max-width: 500px;
   margin-top: 20px;
   margin-right: auto;
   margin-bottom: 20px;
   flex-flow: row wrap;
-  font-size: 20px;
+  font-size: 15px;
   background-color: #e4e1df;
   text-transform: uppercase;
-  font-size: 15px;
+}
+
+#portfolio-summary {
+  flex-direction: row;
+}
+
+#info-summary {
+  flex-direction: column;
 }
 
 nav#menu, main {
@@ -31,4 +45,18 @@ a {
   font-weight: 700;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#resume {
+  text-decoration: underline;
+}
+
+#selfie {
+  width: 200px;
+  height: auto;
 }
