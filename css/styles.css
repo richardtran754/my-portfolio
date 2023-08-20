@@ -1,16 +1,11 @@
 body {
   font-family: 'Noto Sans Vithkuqi', sans-serif;
   background-color: #f3f2f0;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 nav#menu, #info-summary, #portfolio-summary {
   display: flex;
-}
-
-nav#menu, #info-summary {
-  width: 80%;
-  max-width: 500px;
 }
 
 nav#menu {
@@ -26,6 +21,11 @@ nav#menu {
 
 #portfolio-summary {
   flex-direction: row;
+}
+
+nav#menu, #portfolio-summary {
+  width: 80%;
+  max-width: 800px;
 }
 
 #info-summary {
@@ -56,7 +56,14 @@ p {
   text-decoration: underline;
 }
 
+nav#menu, #selfie {
+  border-radius: 25px;
+  border-style: solid;
+  border-color: black;
+}
+
 #selfie {
   width: 200px;
   height: auto;
+  border-width: thin;
 }

@@ -1,0 +1,4 @@
+#uw-proj, #personal-proj {
+  display: flex;
+  flex-direction: column;
+}
